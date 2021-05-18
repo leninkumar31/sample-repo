@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sample-app"
+  description: "sample-app"
+  annotations:
+    github.com/project-slug: leninkumar31/sample-repo
+    backstage.io/techdocs-ref: url:https://github.com/leninkumar31/sample-repo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "leninkumar31"
